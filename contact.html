@@ -1,71 +1,51 @@
-<canvas id="stars"></canvas>
-<div class="container">
-  <div class="header fade-up">
-    <div class="brand"><div class="logo">FF</div><div style="line-height:1">
-      <div style="font-size:14px;">faceless.hacks</div>
-      <div style="font-size:12px;color:rgba(255,255,255,0.6)">Tiny tricks. Big life.</div>
-    </div></div>
-    <nav class="nav"><a class="" href="index.html">Home</a><a class="" href="food-hacks.html">Food Hacks</a><a class="" href="life-hacks.html">Life Hacks</a><a class="" href="motivation.html">Motivation</a><a class="" href="tiktok.html">TikTok</a><a class="active" href="contact.html">Contact</a></nav>
-  </div>
-</div>
-
-<div class="container">
-  <div class="hero fade-up">
-    <div style="flex:1">
-      <h1>Get In Touch</h1>
-      <p>Send us a message — it will arrive at <strong>facelessfoodhacks@gmail.com</strong>.</p>
-    </div>
-    <div style="width:240px"><img src="images/img15.svg" style="width:100%;border-radius:12px"/></div>
-  </div>
-  <div style="margin-top:1rem" class="card contact-card">
-    <h3>Send a Message</h3>
-    <form id="contactForm">
-      <input type="text" name="name" placeholder="Your name" required />
-      <input type="email" name="email" placeholder="Your email" required />
-      <textarea name="message" rows="5" placeholder="Your message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <p id="status" style="margin-top:8px;color:rgba(8,17,26,0.6)"></p>
-    <p style="margin-top:8px;font-size:13px;color:rgba(8,17,26,0.6)">Tip: Replace <code>YOUR_GOOGLE_SCRIPT_URL</code> in the inline script below with your deployed Google Apps Script Web App URL.</p>
-  </div>
-</div>
-
-<footer class="footer">
-  <div>Contact: <a href="mailto:facelessfoodhacks@gmail.com">facelessfoodhacks@gmail.com</a> | <a href="mailto:facelesshacks01@gmail.com">facelesshacks01@gmail.com</a></div>
-  <div style="margin-top:6px;font-size:13px;opacity:0.9">Made with cosmic care ✨ — Faceless Hacks</div>
-</footer>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact.html</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <h1>Faceless Hacks</h1>
+  <nav>
+    <a href="/index.html">Home</a>
+    <a href="/food-hacks.html">Food Hacks</a>
+    <a href="/life-hacks.html">Life Hacks</a>
+    <a href="/motivation.html">Motivation</a>
+    <a href="/tiktok.html">TikTok</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</header>
+<div class="hero"><h2>Contact Us</h2>
+<form id="contactForm">
+  <input type="text" name="name" placeholder="Your name" required><br>
+  <input type="email" name="email" placeholder="Your email" required><br>
+  <textarea name="message" placeholder="Your message" required></textarea><br>
+  <button type="submit">Send</button>
+</form>
+<p id="status"></p>
 <script>
-document.addEventListener('DOMContentLoaded', function(){
-  const form = document.getElementById('contactForm');
-  const status = document.getElementById('status');
-  const scriptUrl = "YOUR_GOOGLE_SCRIPT_URL"; // <<--- replace this with your Google Apps Script Web App URL
-
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    status.textContent = "Sending...";
-    const data = {
-      name: form.name.value,
-      email: form.email.value,
-      message: form.message.value
-    };
-    fetch(scriptUrl, {
-      method: 'POST',
-      body: JSON.stringify(data),
-      headers: {'Content-Type':'application/json'}
-    }).then(r=>r.json()).then(res=>{
-      if(res && res.status==='success'){
-        status.textContent = "✅ Message sent. Thanks — we'll reply soon.";
-        form.reset();
-      } else {
-        status.textContent = "⚠️ Something went wrong. Try again later.";
-      }
-    }).catch(err=>{
-      console.error(err);
-      status.textContent = "⚠️ Network error. Please try again later.";
-    });
+document.getElementById('contactForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  var data = {
+    name: this.name.value,
+    email: this.email.value,
+    message: this.message.value
+  };
+  fetch("YOUR_GOOGLE_SCRIPT_URL", {
+    method:"POST",
+    body: JSON.stringify(data),
+    headers: {"Content-Type":"application/json"}
+  }).then(r=>r.json()).then(res=>{
+    document.getElementById('status').textContent = "Message sent!";
+    this.reset();
+  }).catch(()=>{
+    document.getElementById('status').textContent = "Error sending message.";
   });
 });
-</script>
-<script src="main.js"></script>
+</script></div>
+<footer>Contact: facelessfoodhacks@gmail.com | facelesshacks01@gmail.com</footer>
+<script src="/main.js"></script>
 </body></html>
