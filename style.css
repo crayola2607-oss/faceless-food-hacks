@@ -2,11 +2,12 @@
 :root{--bg:#fff8f6;--card:#fff;--muted:#6b7280;--accent:#ff6f61}
 *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:#111;background:linear-gradient(180deg,#f6f7ff,#fff8f6)}
 .header{padding:28px 16px;text-align:center;background:linear-gradient(90deg,#f8f9ff,#fff7f3);box-shadow:0 6px 18px rgba(12,12,12,0.04);position:sticky;top:0;z-index:40}
-.header h1{margin:0;font-size:26px;letter-spacing:0.3px}
+.header h1{margin:0;font-size:28px;letter-spacing:0.3px}
 .header p{color:var(--muted);margin-top:8px}
 .container{max-width:1100px;margin:28px auto;padding:0 16px}
+.section-title{font-size:22px;margin:6px 0 12px;color:#1f2937}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
-.card{background:linear-gradient(180deg,#ffffff,#fff9f7);border-radius:16px;overflow:hidden;box-shadow:0 14px 30px rgba(12,12,12,0.06);transition:transform .18s,box-shadow .18s;display:flex;flex-direction:column}
+.card{background:linear-gradient(180deg,#ffffff,#fff9f7);border-radius:14px;overflow:hidden;box-shadow:0 14px 30px rgba(12,12,12,0.06);transition:transform .18s,box-shadow .18s;display:flex;flex-direction:column}
 .card:hover{transform:translateY(-8px);box-shadow:0 20px 40px rgba(12,12,12,0.09)}
 .card img{width:100%;height:170px;object-fit:cover;display:block}
 .body{padding:14px;flex:1;display:flex;flex-direction:column}
@@ -14,7 +15,7 @@
 .body p{margin:0;color:#374151;flex:1;line-height:1.45}
 .meta{display:flex;align-items:center;justify-content:space-between;margin-top:12px}
 .share{display:flex;gap:8px}
-.share button{border:0;background:transparent;cursor:pointer;padding:8px;border-radius:8px}
+.share a{border:0;background:transparent;cursor:pointer;padding:8px;border-radius:8px;text-decoration:none;color:#374151}
 .view{background:var(--accent);color:white;padding:8px 12px;border-radius:10px;text-decoration:none;font-weight:700}
 .signup{display:flex;justify-content:center;gap:10px;margin:22px 0}
 .signup input{padding:10px 12px;border-radius:12px;border:1px solid #eee;width:260px}
@@ -22,3 +23,5 @@
 .floating-tiktok{position:fixed;right:18px;bottom:18px;width:56px;height:56px;background:#000;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,0.2);z-index:9999}
 .floating-tiktok img{width:28px;height:28px;filter:invert(1)}
 .footer{padding:20px;text-align:center;color:var(--muted);font-size:14px;margin-top:30px}
+.link-small{font-size:13px;color:#2563eb;text-decoration:none}
+@media (max-width:600px){ .header h1{font-size:20px} .card img{height:140px} }
