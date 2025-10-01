@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "title": "Peel Garlic Fast",
+    "short": "Put garlic cloves in a jar and shake for 20\u201330s \u2014 skins pop right off.",
+    "img_query": "garlic",
+    "source": "https://www.google.com/search?q=Peel+Garlic+Fast"
+  },
+  {
+    "id": 2,
+    "title": "Keep Avocado Fresh",
+    "short": "Store with an onion slice or a squeeze of lemon; wrap tightly to slow browning.",
+    "img_query": "avocado",
+    "source": "https://www.google.com/search?q=Keep+Avocado+Fresh"
+  },
+  {
+    "id": 3,
+    "title": "Freeze Coffee Cubes",
+    "short": "Pour leftover coffee into ice trays to keep iced coffee from diluting.",
+    "img_query": "iced coffee",
+    "source": "https://www.google.com/search?q=Freeze+Coffee+Cubes"
+  },
+  {
+    "id": 4,
+    "title": "Soft Cookies Trick",
+    "short": "Place a slice of bread in the cookie container to keep cookies soft.",
+    "img_query": "cookies",
+    "source": "https://www.google.com/search?q=Soft+Cookies+Trick"
+  },
+  {
+    "id": 5,
+    "title": "Microwave Lemon for Juicing",
+    "short": "Microwave lemons 10s before juicing for more juice and easier squeezing.",
+    "img_query": "lemon",
+    "source": "https://www.google.com/search?q=Microwave+Lemon+for+Juicing"
+  },
+  {
+    "id": 6,
+    "title": "Perfect Pancake Pour",
+    "short": "Use a squeeze bottle/ketchup bottle for perfectly round pancake batter.",
+    "img_query": "pancakes",
+    "source": "https://www.google.com/search?q=Perfect+Pancake+Pour"
+  },
+  {
+    "id": 7,
+    "title": "Restore Stale Bread",
+    "short": "Sprinkle water and heat briefly in oven to refresh stale bread.",
+    "img_query": "bread",
+    "source": "https://www.google.com/search?q=Restore+Stale+Bread"
+  },
+  {
+    "id": 8,
+    "title": "Quick Egg Peel",
+    "short": "Crack and roll egg on counter then peel under running water for easier removal.",
+    "img_query": "boiled egg",
+    "source": "https://www.google.com/search?q=Quick+Egg+Peel"
+  },
+  {
+    "id": 9,
+    "title": "No-Tear Onions",
+    "short": "Chill onions in fridge before chopping to reduce tears.",
+    "img_query": "onion",
+    "source": "https://www.google.com/search?q=No-Tear+Onions"
+  },
+  {
+    "id": 10,
+    "title": "Crispy Reheat Pizza",
+    "short": "Reheat pizza in a skillet with a lid for crispy bottom and melty top.",
+    "img_query": "pizza",
+    "source": "https://www.google.com/search?q=Crispy+Reheat+Pizza"
+  },
+  {
+    "id": 11,
+    "title": "Prevent Pasta Water Boil-Over",
+    "short": "Place a wooden spoon across pot to stop boil-over.",
+    "img_query": "pasta",
+    "source": "https://www.google.com/search?q=Prevent+Pasta+Water+Boil-Over"
+  },
+  {
+    "id": 12,
+    "title": "Freeze Herbs",
+    "short": "Freeze herbs in olive oil in ice cube trays to preserve for cooking.",
+    "img_query": "fresh herbs",
+    "source": "https://www.google.com/search?q=Freeze+Herbs"
+  },
+  {
+    "id": 13,
+    "title": "Ripen Bananas Fast",
+    "short": "Place bananas in a paper bag with an apple to speed ripening.",
+    "img_query": "bananas",
+    "source": "https://www.google.com/search?q=Ripen+Bananas+Fast"
+  },
+  {
+    "id": 14,
+    "title": "Keep Greens Crisp",
+    "short": "Store greens with a paper towel to absorb moisture and stay crisp.",
+    "img_query": "leafy greens",
+    "source": "https://www.google.com/search?q=Keep+Greens+Crisp"
+  },
+  {
+    "id": 15,
+    "title": "Peel Tomatoes Easily",
+    "short": "Score and blanch tomatoes for 30s, then peel skins off quickly.",
+    "img_query": "tomato",
+    "source": "https://www.google.com/search?q=Peel+Tomatoes+Easily"
+  },
+  {
+    "id": 16,
+    "title": "Stop Avocado Browning",
+    "short": "Brush avocado with lemon or lime juice to slow oxidation.",
+    "img_query": "avocado",
+    "source": "https://www.google.com/search?q=Stop+Avocado+Browning"
+  },
+  {
+    "id": 17,
+    "title": "Quick Chill Drinks",
+    "short": "Wrap a wet paper towel around a bottle and place in freezer for 15 minutes.",
+    "img_query": "cold drink",
+    "source": "https://www.google.com/search?q=Quick+Chill+Drinks"
+  },
+  {
+    "id": 18,
+    "title": "Seed Pump from Bell Pepper",
+    "short": "Cut top and push seeds out with a finger for a clean pepper core.",
+    "img_query": "bell pepper",
+    "source": "https://www.google.com/search?q=Seed+Pump+from+Bell+Pepper"
+  },
+  {
+    "id": 19,
+    "title": "Grate Butter for Baking",
+    "short": "Grate cold butter to blend faster into flour for flaky pastry.",
+    "img_query": "butter",
+    "source": "https://www.google.com/search?q=Grate+Butter+for+Baking"
+  },
+  {
+    "id": 20,
+    "title": "Juice More Lemon",
+    "short": "Roll lemon firmly under palm to soften and make juicing easier.",
+    "img_query": "lemon",
+    "source": "https://www.google.com/search?q=Juice+More+Lemon"
+  },
+  {
+    "id": 21,
+    "title": "Open Jar Easily",
+    "short": "Tap edge of lid with spoon and run under hot water to loosen stubborn lids.",
+    "img_query": "jar",
+    "source": "https://www.google.com/search?q=Open+Jar+Easily"
+  },
+  {
+    "id": 22,
+    "title": "Toast Nuts Fast",
+    "short": "Toast nuts in a dry skillet over medium heat for added flavor.",
+    "img_query": "nuts",
+    "source": "https://www.google.com/search?q=Toast+Nuts+Fast"
+  },
+  {
+    "id": 23,
+    "title": "Keep Brown Sugar Soft",
+    "short": "Store with a marshmallow or slice of bread to prevent hardening.",
+    "img_query": "brown sugar",
+    "source": "https://www.google.com/search?q=Keep+Brown+Sugar+Soft"
+  },
+  {
+    "id": 24,
+    "title": "Freshen Rice",
+    "short": "Reheat leftover rice with a splash of water covered to steam and restore texture.",
+    "img_query": "rice",
+    "source": "https://www.google.com/search?q=Freshen+Rice"
+  },
+  {
+    "id": 25,
+    "title": "Remove Stubborn Eggshell",
+    "short": "Use a larger shell piece to scoop out smaller shell fragments easily.",
+    "img_query": "eggshell",
+    "source": "https://www.google.com/search?q=Remove+Stubborn+Eggshell"
+  },
+  {
+    "id": 26,
+    "title": "Use Citrus Peels",
+    "short": "Freeze citrus peels and use for zest or infusing drinks.",
+    "img_query": "citrus peel",
+    "source": "https://www.google.com/search?q=Use+Citrus+Peels"
+  },
+  {
+    "id": 27,
+    "title": "Quick Marinade",
+    "short": "Use yogurt or buttermilk as a quick tenderizing marinade for meats.",
+    "img_query": "marinade",
+    "source": "https://www.google.com/search?q=Quick+Marinade"
+  },
+  {
+    "id": 28,
+    "title": "Peel Ginger with Spoon",
+    "short": "Use the edge of a spoon to easily scrape off ginger skin.",
+    "img_query": "ginger",
+    "source": "https://www.google.com/search?q=Peel+Ginger+with+Spoon"
+  },
+  {
+    "id": 29,
+    "title": "Chill Wine Fast",
+    "short": "Wrap wine bottle in damp towel and place in freezer 10\u201315 minutes.",
+    "img_query": "wine",
+    "source": "https://www.google.com/search?q=Chill+Wine+Fast"
+  },
+  {
+    "id": 30,
+    "title": "Keep Apples from Browning",
+    "short": "Brush apple slices with lemon juice or saltwater briefly.",
+    "img_query": "apples",
+    "source": "https://www.google.com/search?q=Keep+Apples+from+Browning"
+  },
+  {
+    "id": 31,
+    "title": "Prevent Boil-Over with Oil",
+    "short": "Add a few drops of oil to boiling water to reduce bubbling.",
+    "img_query": "boiling water",
+    "source": "https://www.google.com/search?q=Prevent+Boil-Over+with+Oil"
+  }
+]

@@ -1,13 +1,41 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #fafafa;
-  margin: 0;
-  padding: 0;
+
+:root{
+  --bg1:#061224;
+  --bg2:#0b1930;
+  --card:#0f1720;
+  --accent:#ff7b4a;
+  --soft:#f6ede6;
+  --muted:#9aa5b1;
+  --radius:12px;
 }
-h1 {
-  color: #2c3e50;
-}
-p {
-  color: #555;
-  font-size: 1.2em;
-}
+
+*{box-sizing:border-box;font-family:Inter, system-ui, -apple-system, 'Helvetica Neue', Arial;}
+body{margin:0;background:linear-gradient(180deg,var(--bg1),var(--bg2));color:var(--soft);min-height:100vh;}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:18px 28px;background:linear-gradient(90deg, rgba(0,0,0,0.25), rgba(255,255,255,0.02));backdrop-filter: blur(6px);position:sticky;top:0;z-index:5;}
+.brand{font-weight:700;}
+.nav a{color:var(--muted);margin-left:18px;text-decoration:none;font-size:14px;}
+.container{max-width:980px;margin:28px auto;padding:0 18px;}
+.hero{padding:18px 0;text-align:center;}
+.hero h1{font-size:32px;margin:6px auto 8px;color:var(--soft);line-height:1.05;}
+.hero .sub{color:var(--muted);margin-bottom:14px;}
+.newsletter{display:inline-flex;gap:8px;}
+.newsletter input{padding:10px 12px;border-radius:8px;border:none;width:280px;}
+.btn{background:var(--accent);border:none;color:white;padding:10px 14px;border-radius:10px;cursor:pointer;font-weight:600;}
+
+/* grid */
+.grid-section{margin-top:22px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:12px;}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:12px;border-radius:12px;color:var(--soft);box-shadow:0 6px 18px rgba(0,0,0,0.5);min-height:220px;display:flex;flex-direction:column;justify-content:space-between;}
+.card img{width:100%;height:130px;object-fit:cover;border-radius:8px;background:#222;margin-bottom:8px;}
+.card h3{margin:6px 0;font-size:18px;color:var(--soft);}
+.card p{color:var(--muted);font-size:14px;flex:1;}
+.card .meta{display:flex;gap:8px;align-items:center;margin-top:10px;}
+.icon{display:inline-block;padding:6px;border-radius:6px;background:rgba(255,255,255,0.03);color:var(--muted);font-size:13px;}
+
+/* floating TikTok */
+.tiktok{position:fixed;right:18px;bottom:18px;padding:14px;background:linear-gradient(180deg,#ff2d55,#ff7b4a);border-radius:50%;color:white;text-decoration:none;font-size:20px;box-shadow:0 8px 24px rgba(0,0,0,0.5);}
+
+/* contact */
+.contact{margin:40px 0;text-align:center;color:var(--soft);}
+.contact a{color:var(--accent);text-decoration:none;font-weight:600;}
+@media(min-width:900px){.hero h1{font-size:44px;}}
